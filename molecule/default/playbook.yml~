@@ -9,4 +9,3 @@
 
     - import_role:
         name: ansible-role-monica
-      when: ansible_facts['os_family'] == 'Debian'
